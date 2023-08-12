@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#destination1">Destination 1</a></li>
+            <li><a href="#destination2">Destination 2</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="destination1">
+        <h1>Destination 1: Beautiful Beach</h1>
+        <img width="200" src="images/beach.jpg" alt="Beach Destination">
+        <p>Experience the serene beauty of the white sandy beaches...</p>
+        <!-- Contact form for inquiries -->
+        <form action="process_form.php" method="post">
+            <!-- Form fields here -->
+        </form>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0ANLBX2EgmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section id="destination2">
+        <h1>Destination 2: Majestic Mountains</h1>
+        <img width="200" src="images/mountains.jpg" alt="Mountain Destination">
+        <p>Explore the breathtaking landscapes of the towering mountains...</p>
+        <!-- Contact form for inquiries -->
+        <form action="process_form.php" method="post">
+            <!-- Form fields here -->
+        </form>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DAlzlebbdPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section id="contact">
+    <h1>Contact Us to Book Your Holidays</h1>
+    <form action="process_contact_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+    <footer>
+        <p>&copy; 2023 Travel Destinations. All rights reserved.</p>
+    </footer>
+</body>
+</html>
